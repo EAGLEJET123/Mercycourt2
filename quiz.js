@@ -56,13 +56,19 @@ const QUIZZES = {
     ]
   },
   "Grade 4": {
-    topic: "Basic Math & Shapes (Primary 1)",
-    durationSeconds: 5 * 60,
+    topic: "GST",
+    durationSeconds: 15 * 60,
     questions: [
       { id:1, text:"5 - 2 = ?", options:["1","2","3","4"], answerIndex:2 },
       { id:2, text:"Which has 4 equal sides?", options:["Triangle","Square","Circle","Line"], answerIndex:1 },
-      { id:3, text:"What is 3 + 4?", options:["6","7","8","9"], answerIndex:1 },
-      { id:4, text:"Which is not a shape?", options:["Circle","Apple","Rectangle","Triangle"], answerIndex:1 }
+      { id:3, text:"__is a creative way of making beautiful things", options:["Art","Society","phone","fun"], answerIndex:0 },
+      { id:4, text:"Information is ___ knowledge", options:["Useless","Nonsense","Useful","Nothing"], answerIndex:2 },
+		{ id:5, text:"The computer can?", options:["Dance","Cook","Store data","jump"], answerIndex:2 },
+		{ id:6, text:"Information is ___ knowledge", options:["Useless","Nonsense","Useful","Nothing"], answerIndex:2 },
+		{ id:7, text:"Which of these is a baby cat?", options:["Puppy","Calf","Kitten","Foal"], answerIndex:2 },
+		 { id:8, text:"Which of these is round?", options:["Triangle","Circle","Square","Line"], answerIndex:1 },
+		{ id:9, text:"The keyboard as __ and __ keys?", options:["White and black","yellow and white","black and green","brown and purple"], answerIndex:0 },
+		 { id:10, text:"What color do you get when you mix red and white?", options:["Pink","Green","Blue","Brown"], answerIndex:0 }
    ]
  },
 "Grade 5": {
@@ -81,7 +87,7 @@ const QUIZZES = {
       answerIndex:3 
     },
     { id:2, text:"What shape has three corners?", options:["Circle","Triangle","Rectangle","Oval"], answerIndex:1 },
-    { id:3, text:"11-1 (6+4) = ?", options:["20","11","6","10"], answerIndex:0 },
+    { id:3, text:"11-1 (6+4) = ?", options:["1","11","6","10"], answerIndex:0 },
     { id:4, text:"What color do you get when you mix red and white?", options:["Pink","Green","Blue","Brown"], answerIndex:0 },
     { id:5, text:"The keyboard as __ and __ keys?", options:["White and black","yellow and white","black and green","brown and purple"], answerIndex:0 },
     { id:6, text:"Who used his rod to divide the red sea?", options:["Aeron","Cain","Moses","Job"], answerIndex:2 },
@@ -358,6 +364,7 @@ el.restartBtn.addEventListener('click', ()=>{
   // optional: clear fields
    el.loginForm.reset();
 });
+
 
 
 
