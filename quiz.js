@@ -67,7 +67,7 @@ const QUIZZES = {
  },
   "Grade 5": {
     topic: "GST",
-    durationSeconds: 4 * 60,
+    durationSeconds: 15 * 60,
     questions: [
       { id:1, text:"Which is incorrect?", options:["A healthy environment is attractive","A healthy environment is safe for living","A healthy environment prevents diseases","A healthy environment causes pollution
 "], answerIndex:3 },
@@ -79,7 +79,7 @@ const QUIZZES = {
 	{ id:7, text:"__is an example of primary color", options:["pink","brown","grey","Red"], answerIndex:3 },
 		{ id:8, text:"What is the capital city of Nigeria?", options:["Lagos","Ekiti","Abuja","London"], answerIndex:2 },
 		{ id:9, text:"What is the opposite of BIG?", options:["Small","long","large","thin"], answerIndex:0 },
-		{ id:10, text:"If Sally has 15 pencils and she gives 2 to her friend, how many pencils does Sally have left?", options:["13","14","15","16"], answerIndex:0	 },
+		{ id:10, text:"If Sally has 15 pencils and she gives 2 to her friend, how many pencils does Sally have left?", options:["13","14","15","16"], answerIndex:0	 }
     ]
   }
 };
@@ -349,4 +349,5 @@ el.restartBtn.addEventListener('click', ()=>{
   // optional: clear fields
    el.loginForm.reset();
 });
+
 
