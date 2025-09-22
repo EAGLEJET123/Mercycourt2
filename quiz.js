@@ -65,23 +65,32 @@ const QUIZZES = {
       { id:4, text:"Which is not a shape?", options:["Circle","Apple","Rectangle","Triangle"], answerIndex:1 }
    ]
  },
-  "Grade 5": {
-    topic: "GST",
-    durationSeconds: 15 * 60,
-    questions: [
-      { id:1, text:"Which is incorrect?", options:["A healthy environment is attractive","A healthy environment is safe for living","A healthy environment prevents diseases","A healthy environment causes pollution
-"], answerIndex:3 },
-      { id:2, text:"What shape has three corners?", options:["Circle","Triangle","Rectangle","Oval"], answerIndex:1 },
-      { id:3, text:"11-1 (6+4) = ?", options:["20","11","6","10"], answerIndex:0 },
-      { id:4, text:"What color do you get when you mix red and white?", options:["Pink","Green","Blue","Brown"], answerIndex:0 },
-	{ id:5, text:"The keyboard as __ and __ keys?", options:["White and black","yellow and white","black and green","brown and purple"], answerIndex:0 },
-	{ id:6, text:"Who used his rod to divide the red sea?", options:["Aeron","Cain","Moses","Job"], answerIndex:2 },
-	{ id:7, text:"__is an example of primary color", options:["pink","brown","grey","Red"], answerIndex:3 },
-		{ id:8, text:"What is the capital city of Nigeria?", options:["Lagos","Ekiti","Abuja","London"], answerIndex:2 },
-		{ id:9, text:"What is the opposite of BIG?", options:["Small","long","large","thin"], answerIndex:0 },
-		{ id:10, text:"If Sally has 15 pencils and she gives 2 to her friend, how many pencils does Sally have left?", options:["13","14","15","16"], answerIndex:0	 }
-    ]
-  }
+"Grade 5": {
+  topic: "GST",
+  durationSeconds: 15 * 60,
+  questions: [
+    { 
+      id:1, 
+      text:"Which is incorrect?", 
+      options:[
+        "A healthy environment is attractive",
+        "A healthy environment is safe for living",
+        "A healthy environment prevents diseases",
+        "A healthy environment causes pollution"
+      ], 
+      answerIndex:3 
+    },
+    { id:2, text:"What shape has three corners?", options:["Circle","Triangle","Rectangle","Oval"], answerIndex:1 },
+    { id:3, text:"11-1 (6+4) = ?", options:["20","11","6","10"], answerIndex:0 },
+    { id:4, text:"What color do you get when you mix red and white?", options:["Pink","Green","Blue","Brown"], answerIndex:0 },
+    { id:5, text:"The keyboard as __ and __ keys?", options:["White and black","yellow and white","black and green","brown and purple"], answerIndex:0 },
+    { id:6, text:"Who used his rod to divide the red sea?", options:["Aeron","Cain","Moses","Job"], answerIndex:2 },
+    { id:7, text:"__is an example of primary color", options:["pink","brown","grey","Red"], answerIndex:3 },
+    { id:8, text:"What is the capital city of Nigeria?", options:["Lagos","Ekiti","Abuja","London"], answerIndex:2 },
+    { id:9, text:"What is the opposite of BIG?", options:["Small","long","large","thin"], answerIndex:0 },
+    { id:10, text:"If Sally has 15 pencils and she gives 2 to her friend, how many pencils does Sally have left?", options:["13","14","15","16"], answerIndex:0 }
+  ]
+}
 };
 
 /* =========================
@@ -349,5 +358,6 @@ el.restartBtn.addEventListener('click', ()=>{
   // optional: clear fields
    el.loginForm.reset();
 });
+
 
 
